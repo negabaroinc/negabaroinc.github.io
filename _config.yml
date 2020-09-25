@@ -1,0 +1,19 @@
+# Variables
+title:         "Pageo"
+name:          "pageo"
+description:   "Onepage business template"
+version:       1.0.0
+env:           "production"
+url:            https://demo.creativebulma.net/templates/html/pageo
+
+# Build
+markdown:      kramdown
+permalink:     pretty
+includes:      ['assets/css', 'assets/js']
+exclude:       ['package.json','vendor/bundle']
+sass:
+  sass_dir:    _sass
+  style:       compressed
+
+# Icons
+fontawesome:   https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
