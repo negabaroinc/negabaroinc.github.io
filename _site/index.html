@@ -6,25 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Onepage business template">
 
-  <title>Pageo</title>
+  <title style="font-family: 'M PLUS Rounded 1c';">株式会社Negabaro</title>
 
   <link rel="canonical" href="http://localhost:4000/">
 
   <!-- Load main hexalight css -->
   <link href="http://localhost:4000/assets/css/pageo.min.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+  
   <!-- Load Font Awesome 5 -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  
+  <style type="text/css">
+    .wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
+    body { font-family: "M PLUS Rounded 1c" !important }
+  </style>
 </head>
 
 <body>
   <aside id="mobileMenu" class="menu">
-	<a href="#home" class="menu-item is-active" data-scroll="smooth">Home</a>
-	<a href="#services" class="menu-item" data-scroll="smooth">Services</a>
+	<a href="#home" class="menu-item is-active" data-scroll="smooth">トップ</a>
+	<a href="#services" class="menu-item" data-scroll="smooth">事業内容</a>
 	<a href="#about" class="menu-item" data-scroll="smooth">About</a>
-	<a href="#team" class="menu-item" data-scroll="smooth">Team</a>
+	<a href="#portfolio" class="menu-item" data-scroll="smooth">開発事例</a>
 	<a href="#contact" class="menu-item" data-scroll="smooth">Contact</a>
 </aside>
   <!-- Start top navbar -->
@@ -32,7 +40,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item has-text-centered" href="/">
-        <h1 class="title is-5 has-text-weight-normal">Pageo</h1>
+        <h1 class="title is-5 has-text-weight-normal">株式会社Negabaro</h1>
       </a>
 
       <div class="navbar-burger burger" data-target="mobileMenu">
@@ -47,11 +55,11 @@
 
       </div>
       <div class="navbar-end">
-        <a href="#home" class="navbar-item is-active" data-scroll="smooth">Home</a>
-        <a href="#services" class="navbar-item" data-scroll="smooth">Services</a>
-        <a href="#about" class="navbar-item" data-scroll="smooth">About</a>
-        <a href="#team" class="navbar-item" data-scroll="smooth">Team</a>
-        <a href="#contact" class="navbar-item" data-scroll="smooth">Contact</a>
+        <a href="#home" class="navbar-item is-active" data-scroll="smooth">トップ</a>
+        <a href="#services" class="navbar-item" data-scroll="smooth">事業内容</a>
+        <a href="#about" class="navbar-item" data-scroll="smooth">特徴</a>
+        <a href="#portfolio" class="navbar-item" data-scroll="smooth">開発事例</a>
+        <a href="#contact" class="navbar-item" data-scroll="smooth">お問い合わせ</a>
       </div>
 
     </div>
@@ -59,28 +67,30 @@
 </nav>
 <!-- End top navbar -->
 
-
-  <section id="home" class="hero is-fullheight is-primary" data-background="https://images.pexels.com/photos/611328/pexels-photo-611328.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+  <section id="home" class="hero is-fullheight is-primary" data-background="assets/images/rawpixel_06.jpg"
  data-background-position="center center" data-background-size="cover">
 	<div class="hero-body">
 		<div class="container has-text-centered-mobile">
-			<h1 class="title is-spaced is-1 has-text-centered-mobile">Lorem ipsum dolor<br /><span class="has-text-weight-light">sit amet, consetetur</span></h1>
-			<h2 class="subtitle is-3 has-text-centered-mobile">Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-				dolore magna aliquyam erat, sed diam voluptua.</h2>
-			<a href="#" class="button is-primary">Button</a>
+			<h1 class="title is-spaced is-1 has-text-centered-mobile">ウェブサービスで人々を幸せに<br />
+				<span class="has-text-weight-light">株式会社negabaro</span></h1>
+			 <!-- <h2 class="subtitle is-3 has-text-centered-mobile">Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+				dolore magna aliquyam erat, sed diam voluptua.</h2>-->
+			<a href="#contact" class="button is-primary">お問い合わせ</a>
 		</div>
 	</div>
 </section>
-
-<section id="services" class="section is-medium">
+  <section id="services" class="section is-medium">
 	<div class="container">
-		<h2 class="title is-1 has-text-primary has-separator has-text-centered-mobile">Services</h2>
-		<p class="has-text-centered-mobile">Curabitur mollis bibendum luctus duis suscipit vitae dui se bibendum.</p>
+		<h2 class="title is-1 has-text-primary has-separator has-text-centered-mobile">事業内容</h2>
+		<!-- <p class="has-text-centered-mobile">サービスです。</p>-->
 		<br />
 		<div class="columns is-variable is-8">
 			<div class="column is-half">
 				<figure class="image is-4by3 is-covered">
-					<img src="https://images.unsplash.com/photo-1515700553106-bdf080dd3d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2900&q=80">
+						
+				    <img src="assets/images/undraw_web_developer_p3e5.svg" />
+
+					<!-- <img src="https://images.unsplash.com/photo-1515700553106-bdf080dd3d25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2900&q=80"> -->
 				</figure>
 			</div>
 			<div class="column">
@@ -88,39 +98,55 @@
 					<figure class="media-left">
 						<p class="image is-96x96 has-icon is-rounded is-bordered is-active">
 							<span class="icon">
-								<i class="fas fa-3x fa-info-circle"></i>
+								<i class="fas fa-3x fa-code"></i>
 							</span>
 						</p>
 					</figure>
 					<div class="media-content">
 						<div class="content">
-							<h2 class="title">Lorem ipsum dolor</h2>
+							<h2 class="title">ウェブサービス構築・運用</h2>
 							<h3 class="subtitle is-6 has-text-grey">
-								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.
+								UI/UX設計からフロントエンド・バックエンドサービス構築まで統括し対応します。
 							</h3>
 						</div>
 					</div>
 				</article>
-				
+				<article class="media">
+					<figure class="media-left">
+						<p class="image is-96x96 has-icon is-rounded is-bordered is-active">
+							<span class="icon">
+								<i class="fas fa-3x fa-server"></i>
+							</span>
+						</p>
+					</figure>
+					<div class="media-content">
+						<div class="content">
+							<h2 class="title">クラウドインフラ構築・運用</h2>
+							<h3 class="subtitle is-6 has-text-grey">
+								AWS・Dockerを利用したスケーラブルなインフラ構築やterraform,aws cdkを利用したインフラのコード化まで対応します。
+							</h3>
+						</div>
+					</div>
+				</article>				
 				<article class="media">
 					<figure class="media-left">
 						<p class="image is-96x96 has-icon is-rounded is-bordered">
 							<span class="icon">
-								<i class="fas fa-3x fa-map-marker-alt"></i>
+								<i class="fas fa-3x fa-video"></i>
 							</span>
 						</p>
 					</figure>
 					<div class="media-content">
 						<div class="content">
-							<h2 class="title">Lorem ipsum dolor</h2>
+							<h2 class="title">次世代動画システム開発</h2>
 							<h3 class="subtitle is-6 has-text-grey">
-								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.
+								動画提供者の一方的な情報ではなく見る側の人に合わせて変化する次世代の動画を目指してシステム研究・開発をします。
 							</h3>
 						</div>
 					</div>
 				</article>
 				
-				<article class="media">
+				<!--<article class="media">
 					<figure class="media-left">
 						<p class="image is-96x96 has-icon is-rounded is-bordered">
 							<span class="icon">
@@ -136,28 +162,25 @@
 							</h3>
 						</div>
 					</div>
-				</article>
+                </article>
+            -->
 				
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="about" class="section is-medium has-background-primary">
+
+  <section id="about" class="section is-medium has-background-primary">
 	<div class="container">
-		<h2 class="title is-1 has-text-white has-separator has-text-centered-mobile">About</h2>
-		<p class="has-text-white has-text-centered-mobile">Curabitur mollis bibendum luctus duis suscipit.</p>
+		<h2 class="title is-1 has-text-white has-separator has-text-centered-mobile">特徴</h2>
+		<!-- <p class="has-text-white has-text-centered-mobile">Curabitur mollis bibendum luctus duis suscipit.</p> -->
 		<div class="columns is-centered">
 			<div class="column is-10">
-				<section class="section has-text-centered">
-					<h3 class="title is-1 is-spaced has-text-weight-bold has-text-white">Lorem ipsum dolor sit amet, consetetur
-						sadipscing sed.</h3>
-					<h4 class="subtitle is-6 has-text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-						eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-						dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-						clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</h4>
+				<section class="section">
+					<h4 class="title is-3 is-spaced has-text-weight-bold has-text-white">1. 弊社独特のテンプレートエンジンを利用して素早く要件のプロとタイム画面作成可能</h3>
+					<h4 class="title is-3 is-spaced has-text-weight-bold has-text-white">2. UI/UX設計からフロントエンド・バックエンド開発やインフラ構築・運用まで統括して対応</h3>
+					<h4 class="subtitle is-6 has-text-white">弊社では主にAWS,Ruby On Rails,Vue.jsを利用してサービス構築を行います。</h4>
 				</section>
 			</div>
 		</div>
@@ -166,132 +189,116 @@
 		<div class="columns is-centered is-float">
 			<div class="column is-8 is-10-mobile">
 				<figure class="image is-16by9 is-covered">
-					<img src="https://images.unsplash.com/photo-1524749292158-7540c2494485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80">
+						<img src="assets/images/undraw_in_progress_ql66.svg" />
 				</figure>
 			</div>
 		</div>
 	</div>
 </section>
-
-
-<section id="team" class="section is-medium">
+  <section id="portfolio" class="section is-medium">
 	<div class="container">
-		<h2 class="title is-1 has-text-primary has-separator has-text-centered-mobile">Team</h2>
-		<p class="has-text-centered-mobile">Curabitur mollis bibendum luctus duis suscipit vitae dui se bibendum.</p>
+		<h2 class="title is-1 has-text-primary has-separator has-text-centered-mobile">開発事例</h2>
+		<p class="has-text-centered-mobile">弊社で開発した実績です。</p>
 		<br />
 		<div class="columns is-multiline is-mobile">
 			<div class="column is-one-third-tablet is-half-mobile">
-				<div class="avatar">
-					<figure class="image is-1by1 is-covered has-hover-effect">
-						<img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-						<figcaption>
-							<h3 class="title is-size-6-mobile">Name Surname</h3>
-							<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
-							<p class="icon-links">
-								<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
-								<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
-								<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
-							</p>
-						</figcaption>
-					</figure>
+				<div class="avatar2" style="background-color: #51cbda; padding: 10px">
+					<img src="assets/images/undraw_fans_gr54.svg" />
+					<h3 class="title is-size-6-mobile">アマチュアスポーツ名簿管理システム開発</h3>
+					<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
+					<p class="icon-links">
+						<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
+						<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
+						<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
+					</p>
 				</div>
 			</div>
 			<div class="column is-one-third-tablet is-half-mobile">
-				<div class="avatar">
-					<figure class="image is-1by1 is-covered has-hover-effect">
-					<img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-					<figcaption>
-						<h3 class="title is-size-6-mobile">Name Surname</h3>
-						<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
-						<p class="icon-links">
-							<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
-							<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
-							<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
-						</p>
-					</figcaption>
-				</figure>
+				<div class="avatar2" style="background-color: #51cbda; padding: 10px">
+						
+					<img src="assets/images/undraw_add_to_cart_vkjp.svg" />
+					<h3 class="title is-size-6-mobile">ECプラットフォーム開発</h3>
+					<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
+					<p class="icon-links">
+						<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
+						<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
+						<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
+					</p>
 				</div>
 			</div>
 			<div class="column is-one-third-tablet is-half-mobile">
-				<div class="avatar">
-					<figure class="image is-1by1 is-covered has-hover-effect">
-					<img src="https://images.pexels.com/photos/567459/pexels-photo-567459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-					<figcaption>
-						<h3 class="title is-size-6-mobile">Name Surname</h3>
-						<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
-						<p class="icon-links">
-							<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
-							<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
-							<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
-						</p>
-					</figcaption>
-				</figure>
+				<div class="avatar2" style="background-color: #51cbda; padding: 10px">
+						
+					<img src="assets/images/undraw_newspaper_k72w.svg" />
+					<h3 class="title is-size-6-mobile has-text-white has-text-centered-mobile">メディアサイトリプレース</h3>
+					<h4 class="subtitle is-size-7-mobile has-text-white">CO-FOUNDER & CTO</h4>
+					<p class="icon-links">
+						<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
+						<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
+						<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
+					</p>
 				</div>
 			</div>
 			<div class="column is-one-third-tablet is-half-mobile">
-				<div class="avatar">
-					<figure class="image is-1by1 is-covered has-hover-effect">
-					<img src="https://images.pexels.com/photos/793253/pexels-photo-793253.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-					<figcaption>
-						<h3 class="title is-size-6-mobile">Name Surname</h3>
-						<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
-						<p class="icon-links">
-							<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
-							<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
-							<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
-						</p>
-					</figcaption>
-				</figure>
+				<div class="avatar2" style="background-color: #51cbda; padding: 10px">
+					<img src="assets/images/undraw_good_doggy_4wfq.svg" />
+					<h3 class="title is-size-6-mobile">ペットケアサービス開発</h3>
+					<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
+					<p class="icon-links">
+						<span class="icon"><img src="assets/images/icon/aws.svg"/></span>
+						<span class="icon"><img src="assets/images/icon/xd.svg"/></span>
+						<span class="icon"><img src="assets/images/icon/rails.svg"/></span>
+					</p>
 				</div>
 			</div>
 			<div class="column is-one-third-tablet is-half-mobile">
-				<div class="avatar">
-					<figure class="image is-1by1 is-covered has-hover-effect">
-					<img src="https://images.pexels.com/photos/325682/pexels-photo-325682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-					<figcaption>
-						<h3 class="title is-size-6-mobile">Name Surname</h3>
-						<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
-						<p class="icon-links">
-							<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
-							<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
-							<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
-						</p>
-					</figcaption>
-				</figure>
-				</div>
-			</div>
-			<div class="column is-one-third-tablet is-half-mobile">
-				<div class="avatar">
-					<figure class="image is-1by1 is-covered has-hover-effect">
-						<img src="https://images.pexels.com/photos/1739580/pexels-photo-1739580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-						<figcaption>
-							<h3 class="title is-size-6-mobile">Name Surname</h3>
-							<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
-							<p class="icon-links">
-								<a href="#" class="icon"><span class="fab fa-facebook"></span></a>
-								<a href="#" class="icon"><span class="fab fa-twitter"></span></a>
-								<a href="#" class="icon"><span class="fab fa-instagram"></span></a>
-							</p>
-						</figcaption>
-					</figure>
+				<div class="avatar2" style="background-color: #51cbda; padding: 10px">
+					<img src="assets/images/undraw_online_video_ivvq.svg" />
+					<h3 class="title is-size-6-mobile">映画レビューサイトリプレース</h3>
+					<h4 class="subtitle is-size-7-mobile">CO-FOUNDER & CTO</h4>
+					<p class="icon-links">
+						<span class="icon"><img src="assets/images/icon/aws.svg"/></span>
+						<span class="icon"><img src="assets/images/icon/xd.svg"/></span>
+						<span class="icon"><img src="assets/images/icon/rails.svg"/></span>
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-<section class="hero is-medium" data-background="https://images.pexels.com/photos/611328/pexels-photo-611328.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+  <section class="hero is-medium" data-background="assets/images/rawpixel_05.jpg"
  data-background-position="center top" data-background-size="cover">
 	<div class="hero-body">
-		<div class="container has-text-centered">
-			<h2 class="subtitle is-1 has-text-white">Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</h2>
+		<div class="container">
+			<h2 class="title is-1 has-text-white has-separator has-text-centered-mobile">会社概要</h2>
+			<table class="has-text-centered" border="1" style="width:100%; background-color: #e0e0e0; opacity:0.5; border-collapse: collapse;">
+					<tr>
+					　　<th style="width: 30%;">社名</th>
+					　　<td>株式会社negabaro</td>
+					</tr>
+					<tr>
+					　　<th>設立</th>
+					　　<td>2020年 10月 17日</td>
+				　　</tr>
+					<tr>
+					　　<th>資本金</th>
+					　　<td>100万円</td>
+					</tr>
+					<!-- <tr>
+					　　<th>従業員</th>
+					　　<td>2名　（2020年10月現在）</td>
+				　　</tr>-->
+					<tr>
+					　　<th>所在地</th>
+					　　<td>東京都江東区大島1-1-14</td>
+					</tr>
+				  </table>
 		</div>
 	</div>
 </section>
-
-<section id="contact" class="section is-medium">
+  <section id="contact" class="section is-medium">
 	<div class="container">
-		<h2 class="title is-1 has-text-primary has-separator has-text-centered-mobile">Contact</h2>
+		<h2 class="title is-1 has-text-primary has-separator has-text-centered-mobile">お問い合わせ</h2>
 		<br />
 		<div class="columns">
 			<div class="column is-half">
@@ -330,20 +337,21 @@
 		</div>
 	</div>
 </section>
-
   <footer class="footer">
 	<div class="content has-text-centered has-text-white">
-		<p>
-			<strong class="has-text-white">Pageo</strong> by <a href="https://creativebulma.net" class="has-text-white">CreativeBulma</a>.
+		<p class="has-text-white">
+				Copyright©2020 negabaro Inc. All rights reserved.
+			<!--<strong class="has-text-white">Pageo222</strong> by <a href="https://creativebulma.net" class="has-text-white">CreativeBulma</a>.
 			<br />
-			<a href="#" class="has-text-white-ter"><i class="fab fa-facebook"></i></a>
+			 <a href="#" class="has-text-white-ter"><i class="fab fa-facebook"></i></a>
 			&nbsp;
 			<a href="#" class="has-text-white-ter"><i class="fab fa-twitter"></i></a>
 			&nbsp;
-			<a href="#" class="has-text-white-ter"><i class="fab fa-instagram"></i></a>
+			<a href="#" class="has-text-white-ter"><i class="fab fa-instagram"></i></a>-->
 		</p>
 	</div>
 </footer>
+
   <script src="http://localhost:4000/assets/js/pageo.min.js"></script>
   <script src="http://localhost:4000/assets/js/main.js"></script>
 </body>

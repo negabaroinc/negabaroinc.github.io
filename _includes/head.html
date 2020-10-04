@@ -4,15 +4,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <title>{{site.title}}</title>
+  <title style="font-family: 'M PLUS Rounded 1c';">{{site.title}}</title>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
   <!-- Load main hexalight css -->
   <link href="{{ site.url }}/assets/css/{{site.name}}.min.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+  
   <!-- Load Font Awesome 5 -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  
+  <style type="text/css">
+    .wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
+    body { font-family: "M PLUS Rounded 1c" !important }
+  </style>
 </head>

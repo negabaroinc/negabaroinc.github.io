@@ -5,10 +5,14 @@
 <body>
   {% include menu-mobile.html %}
   {% include navbar.html %}
-
-  {{ content }}
-
+  {% include top.html %}
+  {% include service.html %}
+  {% include about.html %}
+  {% include portfolio.html %}
+  {% include hero.html %}
+  {% include contact.html %}
   {% include foot.html %}
+
   <script src="{{site.url}}/assets/js/{{site.name}}.min.js"></script>
   <script src="{{site.url}}/assets/js/main.js"></script>
 </body>
